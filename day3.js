@@ -59,7 +59,7 @@ function getLeastCommonBit(input, charIndex){
 function part1(){
     let mostCommon = ''
     let leastCommon = ''
-    for(let i = 0; i < input[0].length; i++){
+    for(let i = 0; i < data[0].length; i++){
         mostCommon = mostCommon + getMostCommonBit(data, i)
         leastCommon = leastCommon + getLeastCommonBit(data, i)
     }
