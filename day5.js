@@ -81,7 +81,6 @@ function calcPoints(){
 
         //for a horizantal line
         if(xDif == 0){
-            console.log("test")
             let lowerY = getSmallerNumber(beginY, endY)
             let higherY = getGreaterNumber(beginY, endY)
 
@@ -92,7 +91,6 @@ function calcPoints(){
 
         //for a vertical line
         if(yDif == 0){
-            console.log("test")
             let lowerX = getSmallerNumber(beginX, endX)
             let higherX = getGreaterNumber(beginX, endX)
 
@@ -147,7 +145,6 @@ function calcPoints(){
 
 function part1(){
     calcPoints()
-    console.log(grid)
     let counter = 0;
 
     for(let i = 0; i < grid.length; i++){
